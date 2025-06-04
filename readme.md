@@ -10,3 +10,8 @@ Korzystając z repozytorium utwórz prostą karuzelę produktowa na wzór poniż
  4. Ceny produktowe mają być formatowane za pomocą funkcji „displayPrice&quot;, która w parametrze przyjmuje wartość „price&quot;
  5. Iteracja produktów znajdować ma się w pliku „templates/index.tpl&quot;
  6. Ikony przycisków nawigacji znajdują się w katalogu „images&quot;
+
+ ## 🎠 Demo – Karuzela
+
+![Karuzela w działaniu](karuzela.gif)
+
