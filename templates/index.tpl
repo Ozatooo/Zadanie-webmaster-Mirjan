@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="app">
-        <h1>Best Sellers</h1>
+        <h1>Best sellers</h1>
         <div class="product-slider my-slider">
             {foreach from=$products item=product}
                 <div class="product-card">
