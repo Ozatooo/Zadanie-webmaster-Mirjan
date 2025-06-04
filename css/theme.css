@@ -1,0 +1,99 @@
+:root {
+    --font-size-base: 1rem;
+    --font-size-price: 2rem;
+    --font-size-old-price: 1.75rem;
+    --font-size-title-h3: 1.5rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+#app {
+    margin: 10px;
+}
+
+#app > h1 {
+    margin: 30px 0px 0px 0px;
+}
+
+.product-slider {
+    padding: 0px;
+}
+.product-card {
+    padding: 0px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.product-card h3 {
+    font-size: var(--font-size-title-h3);
+    font-weight: 400;
+    margin: 0px;
+    display: inline;
+}
+.price {
+    margin-top: 5px;
+    font-size: var(--font-size-price);
+}
+.price .new {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.promotion {
+    color: #e60000;
+}
+
+.price .old {
+    text-decoration: line-through;
+    color: #000;
+    font-size: var(--font-size-old-price);
+}
+
+.tns-outer {
+    position: relative;
+}
+
+.tns-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.tns-controls button {
+    pointer-events: auto;
+    position: absolute;
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 54px;
+    height: 54px;
+    font-size: 0;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tns-controls [data-controls="prev"] {
+    left: 0;
+    background-image: url('/images/prev.svg');
+}
+
+.tns-controls [data-controls="next"] {
+    right: 0;
+    background-image: url('/images/next.svg');
+}
