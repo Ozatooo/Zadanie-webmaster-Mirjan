@@ -7,6 +7,7 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body, html {
@@ -43,11 +44,11 @@ body, html {
     display: inline;
 }
 .price {
+    font-weight: 600;
     margin-top: 5px;
     font-size: var(--font-size-price);
 }
 .price .new {
-    font-weight: bold;
     margin-right: 8px;
 }
 
